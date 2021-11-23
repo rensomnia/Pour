@@ -427,7 +427,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/FPS
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/marina/Desktop/Pour/FPS Microgame Template
+  m_LastProjectPath: D:\Unity Projects\Team Project\Pour\FPS Microgame Template
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
