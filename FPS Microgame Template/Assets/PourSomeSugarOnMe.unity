@@ -164,6 +164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid 02
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 738cfb63efae84af7b2446470711e751, type: 3}
+      propertyPath: m_TagString
+      value: soil
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 738cfb63efae84af7b2446470711e751, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1454,7 +1458,7 @@ GameObject:
   - component: {fileID: 1658891490}
   m_Layer: 0
   m_Name: Soil (Asteroid Model)
-  m_TagString: soil
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

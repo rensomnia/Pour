@@ -229,6 +229,14 @@ public class ProjectileStandard : MonoBehaviour
             }
         }
 
+        //planting tree
+
+        if (collider.tag == "soil"){
+
+            Debug.Log("you've hit soil!");
+
+        }
+
         // impact sfx
         if (impactSFXClip)
         {
