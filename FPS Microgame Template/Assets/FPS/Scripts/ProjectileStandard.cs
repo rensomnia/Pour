@@ -229,6 +229,26 @@ public class ProjectileStandard : MonoBehaviour
             }
         }
 
+        //declare soil gameObject variable here
+
+
+        //planting tree
+        if (collider.tag == "soil"){
+
+            collider.transform.GetChild(0).gameObject.SetActive(true);
+           
+
+
+            //Debug.Log("the game object is " + gameObject);
+            //Debug.Log("the collider is " + collider); // works and pulls up Asteroid 03 (UnityEngine.SphereCollider)
+            //Debug.Log("the collider.gameobject is " + collider.gameObject); // works and pulls Asteroid 03 (UnityEngine.GameObject)
+            //Debug.Log("the collider.gameobject.name is " + collider.gameObject.name); // this works and pulls up Asteroid 03
+            Debug.Log("you've hit soil!");
+
+        }
+
+
+
         // impact sfx
         if (impactSFXClip)
         {
